@@ -1,4 +1,4 @@
-# ZJU-Tronclass-Courseware-downloader
+# ZJU Tronclass Courseware Downloader
 
 Download Tronclass Courseware
 
