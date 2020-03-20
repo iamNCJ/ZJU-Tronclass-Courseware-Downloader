@@ -1,5 +1,7 @@
 # ZJU Tronclass Courseware Downloader
 
+![Stars](https://img.shields.io/github/stars/iamNCJ/ZJU-Tronclass-Courseware-Downloader.svg?label=Stars&style=social)](https://github.com/iamNCJ/ZJU-Tronclass-Courseware-Downloader/stargazers)
+
 Download Tronclass Courseware
 
 一键下载学在浙大的课件
