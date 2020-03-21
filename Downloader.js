@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         ZJU Tronclass Downloader
 // @namespace    ncj.wiki
-// @version      1.0
+// @version      1.1
 // @license      MIT
 // @description  Download Tronclass Courseware
 // @author       NCJ
-// @match        http://courses.zju.edu.cn:8060/course/*
+// @match        *://courses.zju.edu.cn:8060/course/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
