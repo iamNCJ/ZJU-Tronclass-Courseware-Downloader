@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ZJU Tronclass Downloader
 // @namespace    ncj.wiki
-// @version      2.0
+// @version      2.0.1
 // @license      MIT
 // @description  Download Tronclass Courseware
 // @author       NCJ
@@ -13,8 +13,8 @@
 $(document).bind('DOMSubtreeModified', function() {
     if ($('#file-previewer-with-note > div > div > div.header.clearfix').length && $('#Tronclass_Downloader').length == 0) {
         $('#file-previewer-with-note > div > div > div.header.clearfix').append('<input type="button" value="Download" id="Tronclass_Downloader">')
-        $("#CP").css("position", "relative").css("left", 10);
-        $('#CP').click(function(){
+        $("#Tronclass_Downloader").css("position", "relative").css("left", 10);
+        $('#Tronclass_Downloader').click(function(){
             window.open(decodeURIComponent(document.getElementById('pdf-viewer').src.split("?file=")[1]));
         });
     }
