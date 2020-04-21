@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ZJU Tronclass Downloader
 // @namespace    ncj.wiki
-// @version      2.3.3
+// @version      2.3.3.33
 // @license      MIT
 // @description  Download Tronclass Courseware
 // @author       NCJ
@@ -37,7 +37,9 @@ $(document).bind('DOMSubtreeModified', function() {
         $('#give-score > div > div.main-area > div.main-content > div.right-section > form > div.form-title.ng-scope').append('<input type="button" value="随机生成" id="Tronclass_Random_Nice_Comment">');
         $('#Tronclass_Random_Nice_Comment').click(function() {
             $('textarea').val(nice_comment());
+            angular.element($('textarea')).triggerHandler('change');
             $('input[name="score"]').val(Math.floor(Math.random() * (100 - 85))+ 85);
+            angular.element($('input[name="score"]')).triggerHandler('change');
         });
     }
 });
